@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Creative - Start Bootstrap Theme</title>
+        <title>TRE - Entrenamiento Personal</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -20,9 +20,9 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" style="background-color: black;">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">TRE</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
@@ -38,11 +38,14 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
+                        <h1 class="text-uppercase text-white font-weight-bold">TRE</h1>
+                        <h1 class="text-uppercase text-white font-weight-bold">Tinguaro </h1>
+                        <h1 class="text-uppercase text-white font-weight-bold">Ramos</h1>
+                        <h1 class="text-uppercase text-white font-weight-bold">Entrenamiento</h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+                        <p class="text-white-75 font-weight-light mb-5">Progreso día a día, paso a paso</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
                     </div>
                 </div>
@@ -53,10 +56,10 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">We've got what you need!</h2>
+                        <h2 class="text-white mt-0">Entrenamientos personalizados:</h2>
                         <hr class="divider light my-4" />
-                        <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+                        <p class="text-white-50 mb-4">Ciclismo, Carrera, Trail, Natación, Escalada</p>
+                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Get Started!</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +67,7 @@
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
-                <h2 class="text-center mt-0">At Your Service</h2>
+                <h2 class="text-center mt-0">Sobre mí</h2>
                 <hr class="divider my-4" />
                 <div class="row">
                     <div class="col-lg-3 col-md-6 text-center">
@@ -161,10 +164,12 @@
         </section>
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
-            <div class="container text-center">
+            <div id="ytplayer" class="row justify-content-center"></div>
+            <!--div class="container text-center">
                 <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
                 <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-            </div>
+            </div-->
+
         </section>
         <!-- Contact-->
         <section class="page-section" id="contact">
@@ -202,3 +207,22 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
+<script>
+    // Load the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/player_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  
+    // Replace the 'ytplayer' element with an <iframe> and
+    // YouTube player after the API code downloads.
+    var player;
+    function onYouTubePlayerAPIReady() {
+      player = new YT.Player('ytplayer', {
+        height: '360',
+        width: '640',
+        videoId: 'playlist?list=UUwwRn4y-O9Df9ZS66bC1rsw&playnext=1&index=1'
+      });
+    }
+  </script>
