@@ -68,7 +68,7 @@ hgroup,
 main,
 nav,
 section {
-    display: block;
+    display: flex;
 }
 
 body {
