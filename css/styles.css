@@ -10114,7 +10114,7 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-    color: var(--yellow) !important;
+    color: #f7b234 !important;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     font-size: 0.9rem;
@@ -10127,7 +10127,7 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: green !important;
+    color: #C08D27 !important;
 }
 
 @media (min-width: 992px) {
@@ -10172,7 +10172,8 @@ hr.light {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/principal.jpeg");
+    /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/principal.jpeg");*/
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
