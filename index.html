@@ -50,7 +50,7 @@
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 font-weight-light mb-5">
                         <a href="https://www.instagram.com/tinguaro_ramos_entrenamiento/" target="_blank" style="float:left"><i class="fab fa-instagram"></i>  tinguaro_ramos_entrenamiento</a>
-                        <a href="tel:686195817" style="float:center"><i class="fas fa-mobile-alt"></i>  686195817</a>
+                        <a href="tel:686195817" style="float:center"><i class="fas fa-mobile-alt"></i>  686195817</a><br>
                         <a style="float:center" href="mailto:Tinguaroramosentrenamiento@gmail.com"><i class="fas fa-envelope-square"></i>  Tinguaroramosentrenamiento@gmail.com</a>
 
 
@@ -129,51 +129,70 @@
     <section id="portfolio">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg"><img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
+                <div class="col-lg-4 col-sm-6" onfocusout="hideSportDescription('ciclismoCarretera')" onclick="showSportDescription('ciclismoCarretera')">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
                         <div class="portfolio-box-caption">
                             <!--div class="project-category text-white-50">Category</div-->
-                            <div class="project-name">Ciclismo Carretera</div>
+                            <div class="photo-text" id="ciclismoCarretera">
+                                <h5>Ciclismo Carretera</h5>
+                                <p>luhasdfdgsfkdgsf</p>
+                            </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg"><img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
+                <div class="col-lg-4 col-sm-6" onfocusout="hideSportDescription('carreraPista')" onclick="showSportDescription('carreraPista')">
+                    <a class="portfolio-box"><img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
                         <div class="portfolio-box-caption">
                             <!--div class="project-category text-white-50">Category</div-->
-                            <div class="project-name">Carrera Pista</div>
+                            <div class="photo-text" id="carreraPista">
+                                <h5>Pista</h5>
+                                <p>ñluhdasfglkjuhdafgluhdfs</p>
+                            </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg"><img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
+                <div class="col-lg-4 col-sm-6" onfocusout="hideSportDescription('tri')" onclick="showSportDescription('tri')">
+                    <a class="portfolio-box"><img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
                         <div class="portfolio-box-caption">
                             <!--div class="project-category text-white-50">Category</div-->
-                            <div class="project-name">Triatlon</div>
+                            <div class="photo-text" id="tri">
+                                <h5>Triatlon</h5>
+                                <p>dfgdgfshdgfhdgfhdgfh</p>
+                            </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg"><img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
+                <div class="col-lg-4 col-sm-6" onfocusout="hideSportDescription('mtb')" onclick="showSportDescription('mtb')">
+                    <a class="portfolio-box"><img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
                         <div class="portfolio-box-caption">
                             <!--div class="project-category text-white-50">Category</div-->
-                            <div class="project-name">Ciclismo Mtb</div>
+                            <div class="photo-text" id="mtb">
+                                <h5>Ciclismo Mtb</h5>
+                                <p>sdfgdfsgdfsgdfsgdfsgdf</p>
+                            </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg"><img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
+                <div class="col-lg-4 col-sm-6" onfocusout="hideSportDescription('trail')" onclick="showSportDescription('trail')">
+                    <a class="portfolio-box"><img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
                         <div class="portfolio-box-caption">
                             <!--div class="project-category text-white-50">Category</div-->
-                            <div class="project-name">Carrera Trail</div>
+                            <div class="photo-text" id="trail">
+                                <h5>Trail</h5>
+                                <p>dsfgdfsgghdgfhhdgfhdgfhdrgfh</p>
+                            </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg"><img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
+                <div class="col-lg-4 col-sm-6" onfocusout="hideSportDescription('others')" onclick="showSportDescription('others')">
+                    <a class="portfolio-box"><img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
                         <div class="portfolio-box-caption p-3">
                             <!--div class="project-category text-white-50">Category</div-->
-                            <div class="project-name">Otras modalidades</div>
+                            <div class="photo-text" id="others">
+                                <h5>Otras modalidades</h5>
+                                <p>ljdhesfljdsgfkldhsgfkgsfdksgf</p>
+                            </div>
                         </div>
                     </a>
                 </div>

@@ -10222,6 +10222,8 @@ header.masthead h1 {
     display: block;
 }
 
+
+/*
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption,
 #portfolio .container-sm .portfolio-box .portfolio-box-caption,
 #portfolio .container-md .portfolio-box .portfolio-box-caption,
@@ -10268,8 +10270,17 @@ header.masthead h1 {
 #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption,
 #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
-}
+}*/
 
 .text-white-75 {
     color: rgba(255, 255, 255, 0.75);
+}
+
+.photo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: none;
 }

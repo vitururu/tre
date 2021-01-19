@@ -3,6 +3,16 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
+
+function showSportDescription(element) {
+    document.getElementById(element).style.display = 'block';
+}
+
+$(".col-lg-4 col-sm-6").focusout(function() {
+    console.log('puto');
+    document.getElementsByClassName('photo-text').style.display = 'none';
+});
+
 (function($) {
     "use strict"; // Start of use strict
 
@@ -45,7 +55,7 @@
     $(window).scroll(navbarCollapse);
 
     // Magnific popup calls
-    $('#portfolio').magnificPopup({
+    /*$('#portfolio').magnificPopup({
         delegate: 'a',
         type: 'image',
         tLoading: 'Loading image #%curr%...',
@@ -58,6 +68,6 @@
         image: {
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
-    });
+    });*/
 
 })(jQuery); // End of use strict
