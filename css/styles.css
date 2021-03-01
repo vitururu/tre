@@ -181,13 +181,13 @@ sup {
 }
 
 a {
-    color: #f4623a;
+    color: #f7b234;
     text-decoration: none;
     background-color: transparent;
 }
 
 a:hover {
-    color: #d6370c;
+    color: #f7b334b9;
     text-decoration: underline;
 }
 
@@ -404,6 +404,7 @@ h6,
 h1,
 .h1 {
     font-size: 2.5rem;
+    color: #f7b234;
 }
 
 h2,
