@@ -4673,12 +4673,8 @@ input[type=button].btn-block {
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 0.1);
-}
-
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    color: rgba(61, 61, 63, 1);
+    border-color: rgba(61, 61, 63, 1);
 }
 
 .navbar-light .navbar-text {
@@ -4724,8 +4720,8 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-toggler {
-    color: rgba(255, 255, 255, 0.5);
-    border-color: rgba(255, 255, 255, 0.1);
+    color: #f7b234;
+    border-color: #f7b234;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -4737,12 +4733,12 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-text a {
-    color: #fff;
+    color: #f7b234;
 }
 
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-    color: #fff;
+    color: #f7b234;
 }
 
 .card {
@@ -4751,7 +4747,7 @@ input[type=button].btn-block {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #f7b234;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
@@ -10798,7 +10794,7 @@ img {
 /* Slideshow container */
 
 .slideshow-container {
-    /*max-width: 1000px;*/
+    max-width: 100%;
     position: relative;
     margin: auto;
 }
@@ -10807,11 +10803,11 @@ img {
 /* Caption text */
 
 .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    /* padding: 8px 12px;*/
+    color: red;
+    font-size: xx-large;
+    padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    bottom: 48vh;
     width: 100%;
     text-align: center;
 }
